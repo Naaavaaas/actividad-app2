@@ -1,0 +1,47 @@
+importar  'paquete: flutter / material.dart' ;
+void  main () {
+  runApp ( MyApp ());
+}
+class  MyApp  extiende  StatelessWidget {
+@anular
+Widget  acumulación ( BuildContext contexto) {
+  devolver  MaterialApp (
+      casa :  Andamio (
+      backgroundColor :  Colors .blueAccent,
+      cuerpo :  SafeArea (
+      niño :  Fila (
+      mainAxisSize :  MainAxisSize .max,
+      mainAxisAlignment :  MainAxisAlignment .spaceBetween,
+      niños :  < Widget > [
+      Contenedor (
+      ancho :  100.0 ,
+      altura :  doble .infinito,
+      color :  Colores .tealAccent[300]
+      niño :  Texto ( 'Contenedor 1' ),
+  ),
+
+  Contenedor (
+  ancho :  70.0 ,
+  altura :  100.0 ,
+  color :  Colors .lightBlueAccent,
+  niño :  Texto ( 'Contenedor 2' ),
+  ),
+  Contenedor (
+  ancho :  70.0 ,
+  altura :  100.0 ,
+  color :  Colors .amberAccent[100],
+  niño :  Texto ( 'Contenedor 3' ),
+  ),
+  Contenedor (
+  ancho :  100.0 ,
+  altura :  doble .infinito,
+  color :  Colors .teelAccent,
+  niño :  Texto ( 'Contenedor 4' ),
+  ),
+  ],
+  ),
+  ),
+  ),
+  );
+}
+}
